@@ -1,4 +1,7 @@
 theme: jekyll-theme-hacker
 
+plugins:
+  - jekyll-feed
+
 title: mplough.github.io
 description: An experiment was carried out
