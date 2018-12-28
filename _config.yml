@@ -1,6 +1,7 @@
 title: mplough.github.io
 author: mplough
 github_username: mplough
+description: ""
 
 markdown: kramdown
 theme: minima
