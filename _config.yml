@@ -1,7 +1,9 @@
-theme: jekyll-theme-hacker
+title: mplough.github.io
+author: mplough
+github_username: mplough
 
+markdown: kramdown
+theme: minima
+show_excerpts: true
 plugins:
   - jekyll-feed
-
-title: mplough.github.io
-description: An experiment was carried out
