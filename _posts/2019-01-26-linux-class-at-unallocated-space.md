@@ -106,7 +106,7 @@ In Safari we'll get a "Your connection is not private" page.  After clicking
 system security settings, which we don't recommend doing.
 
 ##### Chrome
-In Chrome we'll get a "Your connection is not proviate" page that displays a
+In Chrome we'll get a "Your connection is not private" page that displays a
 `NET::ERR_CERT_AUTHORITY_INVALID` error.  After clicking "Advanced", we can
 "Proceed to localhost (unsafe)".
 
