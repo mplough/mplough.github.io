@@ -5,6 +5,6 @@ description: ""
 
 markdown: kramdown
 theme: minima
-show_excerpts: true
+show_excerpts: false
 plugins:
   - jekyll-feed
