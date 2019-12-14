@@ -3,9 +3,8 @@ layout: post
 title:  "MuseScore bug: Weird UI text when font smoothing is not disabled"
 ---
 
-This blog post is now available on the [MuseScore issue
-tracker](https://musescore.org/en/project/issues/musescore) as [issue
-#280452](https://musescore.org/en/node/280452).
+**Update**: While this behavior was exhibited in the 3.0 pre-release, released
+versions of MuseScore 3.x behave normally.
 
 ## Background
 Font smoothing is disabled by default at the OS level on macOS Mojave, which makes font rendering look worse on non-retina screens.  A workaround for this OS-level issue is [available](https://www.howtogeek.com/358596/how-to-fix-blurry-fonts-on-macos-mojave-with-subpixel-antialiasing/).
@@ -43,3 +42,7 @@ With font smoothing not disabled (setting `NO`), MuseScore 2.3.2 renders UI text
 
 ## Workaround
 The workaround is to disable font smoothing, which is undesirable as UI text everywhere in the OS looks blurry.
+
+This blog post is also available on the [MuseScore issue
+tracker](https://musescore.org/en/project/issues/musescore) as [issue
+280452](https://musescore.org/en/node/280452).
