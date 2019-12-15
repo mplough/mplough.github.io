@@ -8,8 +8,8 @@ title:  "Rewriting the video stream from a wi-fi borescope camera"
 I purchased a cheap wi-fi borescope camera (the [Depstech WF028
 Yellow](https://www.depstech.com/wf028-hd-wifi-endoscope-yellow)) so I could
 examine the ductwork in my house.  The manufacturer supplies mobile apps
-([DEPSTECH](https://apps.apple.com/us/app/depstech/id1232126462) on iOS for
-example), for controlling settings and viewing video and explicitly does not
+([DEPSTECH](https://apps.apple.com/us/app/depstech/id1232126462) on iOS, for
+example) for controlling settings and viewing video and explicitly does not
 support using the device from desktop operating systems.  Although the mobile
 apps do work, they receive lukewarm reviews and look kind of seedy.
 
@@ -75,8 +75,8 @@ repo](https://github.com/avast/retdec)) to examine these two files, `app_cam`
 and `app_detect`.
 
 ```console
-$ /retdec-decompiler.py /path/to/app_cam --cleanup -k
-$ /retdec-decompiler.py /path/to/app_detect --cleanup -k
+$ retdec-decompiler.py /path/to/app_cam --cleanup -k
+$ retdec-decompiler.py /path/to/app_detect --cleanup -k
 ```
 The `-k` option keeps unreachable functions in the C output and the
 `--cleanup` option keeps things tidy.  Four files result from running these two
@@ -248,7 +248,7 @@ $ ffmpeg -loglevel warning -i frame1.log 1.jpg
 
 ![Corrupt image](/images/bad ffmpeg frame.jpg)
 
-The ffmpeg's output on stdout says that a bad variable-length code was
+The ffmpeg run's output on stdout says that a bad variable-length code was
 encountered while attempting to decode the direct current (DC) term of a
 discrete cosine transform.  The error occurred in MCU (78, 43).
 
@@ -262,7 +262,7 @@ to extract that information from the images produced by the borescope.
 
 Running the tool on the frame under examination yields the following output:
 ```console
-$ /path/to/mcutool.sh frame1.log
+$ mcutool.sh frame1.log
 width	1280
 height	720
 mcu_x	16
@@ -342,14 +342,14 @@ pipeline.
 
 The following pipeline acquires video from the camera, logs the raw stream to a
 file for later playback, rewrites the stream in real time, and displays video.
-A named pipe is used because `ffplay` only reads files and not accept input on
-stdin.
+A named pipe is used because `ffplay` only reads files and does not accept
+input on stdin.
 
 ```bash
 mkfifo vid.fifo
 nc 192.168.10.123 7060 \
     | tee v.log \
-    | /path/to/borescope_stream --rewrite-jpeg >vid.fifo & \
+    | borescope_stream --rewrite-jpeg >vid.fifo & \
     ffplay -hide_banner -loglevel error -f mjpeg vid.fifo
 ```
 
