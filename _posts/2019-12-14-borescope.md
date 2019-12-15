@@ -37,9 +37,7 @@ borescope.  His four posts provided an excellent starting point for my efforts.
   ```
 
 ### Limitations of prior work
-As [corroborated by a commenter on part
-4](https://n8henrie.com/2019/02/reverse-engineering-my-wifi-endoscope-part-4/#comment-4579874191)
-However, artifacts appear in the video stream that make VLC freak out and
+Artifacts appear in the video stream that make VLC freak out and
 re-buffer, causing choppiness and latency that make the video stream almost
 unusable.  Using VLC to view the video stream is a far poorer user experience
 than using the supplied mobile app.
