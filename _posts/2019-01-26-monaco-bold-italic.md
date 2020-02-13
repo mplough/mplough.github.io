@@ -25,8 +25,10 @@ the same font.  That won't play well with the `guifont` setting in Vim.
 The [monego](https://github.com/cseelus/monego) project on GitHub, which is
 forked from the [monaco-bold](https://github.com/vjpr/monaco-bold) project,
 solves those problems, making available a font called Monego that's just Monaco
-with bold and italic variants.  It's missing a bold italic variant but that's
-something I could add myself and contribute back if it bothers me too much.
+with bold and italic variants.  ~~It's missing a bold italic variant but that's
+something I could add myself and contribute back if it bothers me too much.~~
+UPDATE: A bold italic version got added on [April 8,
+2019](https://github.com/cseelus/monego/commit/0c384f828c41c84ad94ebe8aaefc333307988cbc).
 
 I installed the Monego font, set my iTerm2 profiles to use it, and updated my
 `.gvimrc`'s font settings to:
