@@ -56,9 +56,9 @@ provide a way to connect the dots between those types of information.
 
 A digital audio file contains the sounds that you hear.
 
-A MIDI file contains no sounds of its own and instead contains commands
-commands that instruct an instrument how it should play sounds (note on, note
-off, pedal down, pedal up, etc.).
+A MIDI file contains no sounds of its own and instead contains commands that
+instruct an instrument how it should play sounds (note on, note off, pedal
+down, pedal up, etc.).
 
 As MIDI is a huge world unto itself, I'll focus on digital audio here.
 
