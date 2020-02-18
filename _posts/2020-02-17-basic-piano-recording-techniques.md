@@ -60,17 +60,19 @@ A MIDI file contains no sounds of its own and instead contains commands that
 instruct an instrument how it should play sounds (note on, note off, pedal
 down, pedal up, etc.).
 
-As MIDI is a huge world unto itself, I'll focus on digital audio here.
+As MIDI is a huge world unto itself and doesn't allow one-step recording of the
+sound of a performance, I'll focus on digital audio here.
 
-### MP3 vs. WAV
+### Types of digital audio files
 
 Digital audio files that you download or stream are compressed to save
 bandwidth and storage space.  Some degradation in quality occurs with typical
 "lossy" compression techniques such as MP3 or AAC.  As a result, some pianos
-will record WAV files.  Sharing WAV files directly might annoy your friends
-when they receive a 150 megabyte email attachment.  Compress WAV files using
-audio software.  [Audacity](https://www.audacityteam.org/) is a great place to
-start -- it's free, open source, and well supported.
+will record uncompressed WAV files with no associated degradation.  Sharing WAV
+files directly might annoy your friends when they receive a 150 megabyte email
+attachment.  Compress WAV files using audio software.
+[Audacity](https://www.audacityteam.org/) is a great place to start -- it's
+free, open source, and well supported.
 
 Compressing a file with Audacity is easy:
 
@@ -80,7 +82,7 @@ Compressing a file with Audacity is easy:
 
 ### DAW
 
-A DAW is short for [Digital Audio
+DAW is short for [Digital Audio
 Workstation](https://en.wikipedia.org/wiki/Digital_audio_workstation), most
 commonly a software program used to record and edit audio.
 
@@ -113,33 +115,40 @@ digital piano.
 
 * Record directly from the piano to a USB flash drive
 * Record digital audio from the piano via USB
-* Record audio output from the piano via line outs
+* Record analog audio from the piano via line outputs
 
 ### USB audio capabilities of popular digital pianos
 
-The following table shows the USB audio capabilities of a few popular stage
+The following tables show the USB audio capabilities of a few popular stage
 pianos plus [portable pianos recommended in the Reddit /r/piano
 FAQ](https://www.reddit.com/r/piano/wiki/faq#wiki_specific_suggestions).
 
-|Brand|Model|Type|USB A port?|Record digital audio to flash drive?|USB B port?|USB audio?|USB MIDI?|
-|-----|-----|----|-----------|---------------------------------------------|-----------|----------|---------|
-|Casio|[PX-160](https://www.casiomusicgear.com/products/privia-series/px-160)|Portable piano|No|No|**Yes**|No|**Yes**|
-|Casio|[PX-350](https://support.casio.com/storage/en/manual/pdf/EN/008/PX350M_EN.pdf)|Portable piano|**Yes**|**Yes**|**Yes**|No|**Yes**|
-|Casio|[PX-5S](https://www.casiomusicgear.com/products/privia-series/px-5s)|Portable piano|**Yes**|**Yes**|**Yes**|No|**Yes**|
-|Kawai|[ES100](https://kawaius.com/product/es100/)|Portable piano|No|No|No|No|No|
-|Kawai|[ES8](https://kawaius.com/product/es8/)|Portable piano|**Yes**|**Yes**|**Yes**|No|**Yes**|
-|Korg|[SP170S](https://www.korg.com/us/products/digitalpianos/sp_170s/)|Portable piano|No|No|No|No|No|
-|Roland|[FP-30](https://www.roland.com/global/products/fp_series/fp-30/)|Portable piano|**Yes**|No|**Yes**|No|**Yes**|
-|Roland|[FP-60](https://www.roland.com/global/products/fp_series/fp-60/)|Portable piano|**Yes**|**Yes**|**Yes**|No|**Yes**|
-|Roland|[FP-90](https://www.roland.com/global/products/fp_series/fp-90/)|Portable piano|**Yes**|**Yes**|**Yes**|No|**Yes**|
-|Yamaha|[P-125](https://usa.yamaha.com/products/musical_instruments/pianos/p_series/p-125/index.html)|Portable piano|No|No|**Yes**|**Yes**|**Yes**|
-|Yamaha|[P-255](https://usa.yamaha.com/products/musical_instruments/pianos/p_series/p-255/index.html)|Portable piano|**Yes**|**Yes**|**Yes**|No|**Yes**|
-|Casio|[PX-S1000](https://www.casiomusicgear.com/products/privia-series/px-s1000)|Stage piano|No|No|**Yes**|No|**Yes**|
-|Casio|[PX-S3000](https://www.casiomusicgear.com/products/privia-series/px-s3000)|Stage piano|**Yes**|**Yes**|**Yes**|No|**Yes**|
-|Korg|[Grandstage](https://www.korg.com/us/products/synthesizers/grandstage/)|Stage piano|**Yes**|No|**Yes**|No|**Yes**|
-|Nord|[Stage 3](https://www.nordkeyboards.com/products/nord-stage-3)|Stage piano|No|No|**Yes**|No|**Yes**|
-|Roland|[RD-2000](https://www.roland.com/us/products/rd-2000/)|Stage piano|**Yes**|**Yes**|**Yes**|**Yes**|**Yes**|
-|Yamaha|[CP88](https://usa.yamaha.com/products/music_production/synthesizers/cp88_73/index.html)|Stage piano|**Yes**|No|**Yes**|**Yes**|**Yes**|
+#### Portable pianos
+
+|Brand|Model|USB A port?|Record digital audio to flash drive?|USB B port?|USB audio?|USB MIDI?|
+|-----|-----|-----------|------------------------------------|-----------|----------|---------|
+|Casio|[PX-160](https://www.casiomusicgear.com/products/privia-series/px-160)|No|No|**Yes**|No|**Yes**|
+|Casio|[PX-350](https://support.casio.com/storage/en/manual/pdf/EN/008/PX350M_EN.pdf)|**Yes**|**Yes**|**Yes**|No|**Yes**|
+|Casio|[PX-5S](https://www.casiomusicgear.com/products/privia-series/px-5s)|**Yes**|**Yes**|**Yes**|No|**Yes**|
+|Kawai|[ES100](https://kawaius.com/product/es100/)|No|No|No|No|No|
+|Kawai|[ES8](https://kawaius.com/product/es8/)|**Yes**|**Yes**|**Yes**|No|**Yes**|
+|Korg|[SP170S](https://www.korg.com/us/products/digitalpianos/sp_170s/)|No|No|No|No|No|
+|Roland|[FP-30](https://www.roland.com/global/products/fp_series/fp-30/)|**Yes**|No|**Yes**|No|**Yes**|
+|Roland|[FP-60](https://www.roland.com/global/products/fp_series/fp-60/)|**Yes**|**Yes**|**Yes**|No|**Yes**|
+|Roland|[FP-90](https://www.roland.com/global/products/fp_series/fp-90/)|**Yes**|**Yes**|**Yes**|No|**Yes**|
+|Yamaha|[P-125](https://usa.yamaha.com/products/musical_instruments/pianos/p_series/p-125/index.html)|No|No|**Yes**|**Yes**|**Yes**|
+|Yamaha|[P-255](https://usa.yamaha.com/products/musical_instruments/pianos/p_series/p-255/index.html)|**Yes**|**Yes**|**Yes**|No|**Yes**|
+
+#### Stage pianos
+
+|Brand|Model|USB A port?|Record digital audio to flash drive?|USB B port?|USB audio?|USB MIDI?|
+|-----|-----|-----------|------------------------------------|-----------|----------|---------|
+|Casio|[PX-S1000](https://www.casiomusicgear.com/products/privia-series/px-s1000)|No|No|**Yes**|No|**Yes**|
+|Casio|[PX-S3000](https://www.casiomusicgear.com/products/privia-series/px-s3000)|**Yes**|**Yes**|**Yes**|No|**Yes**|
+|Korg|[Grandstage](https://www.korg.com/us/products/synthesizers/grandstage/)|**Yes**|No|**Yes**|No|**Yes**|
+|Nord|[Stage 3](https://www.nordkeyboards.com/products/nord-stage-3)|No|No|**Yes**|No|**Yes**|
+|Roland|[RD-2000](https://www.roland.com/us/products/rd-2000/)|**Yes**|**Yes**|**Yes**|**Yes**|**Yes**|
+|Yamaha|[CP88](https://usa.yamaha.com/products/music_production/synthesizers/cp88_73/index.html)|**Yes**|No|**Yes**|**Yes**|**Yes**|
 
 ### Quick-and-dirty flash drive recording
 
@@ -159,8 +168,8 @@ computer or don't want to buy new gear, it's a decent way to proceed.
 instructions in your user manual.
 1. Once you're done recording, remove the flash drive from your piano, insert
    it into your computer, and listen to the file to make sure it's good.
-1. If you've recorded a WAV file, compress it as described in [MP3
-vs. WAV, above](#mp3-vs-wav).
+1. If you've recorded a WAV file, compress it as described in [Types of digital
+   audio files](#types-of-digital-audio-files), above.
 1. Then share it with as big of a world as you'd like.
 
 ### Record digital audio via USB
