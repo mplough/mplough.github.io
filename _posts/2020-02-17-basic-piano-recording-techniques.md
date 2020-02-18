@@ -295,7 +295,7 @@ bases and counterweighted booms and think of them as an insurance policy.
 ### Recommended equipment
 
 * **External audio interface**.  You'll need one with at least two microphone
-  preamps.
+  preamps and 48 volt phantom power.
   * [Focusrite Scarlett 2i2](https://focusrite.com/en/usb-audio-interface/scarlett/scarlett-2i2) ($160)
 * **Microphones**. Choose the pair of small diaphragm condensers that matches your
   budget. Note that the $200 Røde M5s are fantastic.
@@ -367,6 +367,9 @@ Opening the lid is essential!
 **Do the following**:
 1. Open the piano's lid all the way or remove it entirely.
 1. Set up your computer, external audio interface, mics, stereo bar, and boom stand.
+1. Turn on phantom power on your external audio interface.  On the Scarlett
+   2i2, do this by pushing the phantom power button on the front of the
+   interface.
 1. Use grand piano placement 1 from [Shure's Microphone Techniques for
    Recording](https://www.shure.com/damfiles/default/global/documents/publications/en/performance-production/microphone_techniques_for_recording_english.pdf-bb0469316afdb6118691d2f3f5e3ff01.pdf) (page 11)
    with a 135-degree X-Y coincident stereo placement (page 22).  Make sure the
@@ -403,6 +406,9 @@ recording.
 **Do the following**:
 1. Open the piano's lid all the way or remove it entirely.
 1. Set up your computer, external audio interface, mics, stereo bar, and boom stand.
+1. Turn on phantom power on your external audio interface.  On the Scarlett
+   2i2, do this by pushing the phantom power button on the front of the
+   interface.
 1. Set one stand up to the left of the piano and the other to the right.
 1. Set up the left stand with upright piano placement 2 from [Shure's Microphone Techniques for
    Recording](https://www.shure.com/damfiles/default/global/documents/publications/en/performance-production/microphone_techniques_for_recording_english.pdf-bb0469316afdb6118691d2f3f5e3ff01.pdf)
