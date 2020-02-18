@@ -54,18 +54,18 @@ provide a way to connect the dots between those types of information.
 
 ### Audio vs. MIDI
 
-A digital audio file contains the sounds that you hear.
+An audio file contains the sounds that you hear.
 
 A MIDI file contains no sounds of its own and instead contains commands that
 instruct an instrument how it should play sounds (note on, note off, pedal
 down, pedal up, etc.).
 
 As MIDI is a huge world unto itself and doesn't allow one-step recording of the
-sound of a performance, I'll focus on digital audio here.
+sound of a performance, I'll focus on plain-old audio here.
 
-### Types of digital audio files
+### Types of audio files
 
-Digital audio files that you download or stream are compressed to save
+Audio files that you download or stream are compressed to save
 bandwidth and storage space.  Some degradation in quality occurs with typical
 "lossy" compression techniques such as MP3 or AAC.  As a result, some pianos
 will record uncompressed WAV files with no associated degradation.  Sharing WAV
@@ -74,7 +74,7 @@ attachment.  Compress WAV files using audio software.
 [Audacity](https://www.audacityteam.org/) is a great place to start -- it's
 free, open source, and well supported.
 
-Compressing a file with Audacity is easy:
+Compressing a WAV file with Audacity is easy:
 
 1. Open the WAV file in Audacity.
 1. From the menu, File > Export > Export as MP3
@@ -114,8 +114,8 @@ Depending on your gear, several methods may be available for recording a
 digital piano.
 
 * Record directly from the piano to a USB flash drive
-* Record digital audio from the piano via USB
-* Record analog audio from the piano via line outputs
+* Record audio from the piano via USB
+* Record audio from the piano via line outputs
 
 ### USB audio capabilities of popular digital pianos
 
@@ -125,7 +125,7 @@ FAQ](https://www.reddit.com/r/piano/wiki/faq#wiki_specific_suggestions).
 
 #### Portable pianos
 
-|Brand|Model|USB A port?|Record digital audio to flash drive?|USB B port?|USB audio?|USB MIDI?|
+|Brand|Model|USB A port?|Record audio to flash drive?|USB B port?|USB audio?|USB MIDI?|
 |-----|-----|-----------|------------------------------------|-----------|----------|---------|
 |Casio|[PX-160](https://www.casiomusicgear.com/products/privia-series/px-160)|No|No|**Yes**|No|**Yes**|
 |Casio|[PX-350](https://support.casio.com/storage/en/manual/pdf/EN/008/PX350M_EN.pdf)|**Yes**|**Yes**|**Yes**|No|**Yes**|
@@ -141,7 +141,7 @@ FAQ](https://www.reddit.com/r/piano/wiki/faq#wiki_specific_suggestions).
 
 #### Stage pianos
 
-|Brand|Model|USB A port?|Record digital audio to flash drive?|USB B port?|USB audio?|USB MIDI?|
+|Brand|Model|USB A port?|Record audio to flash drive?|USB B port?|USB audio?|USB MIDI?|
 |-----|-----|-----------|------------------------------------|-----------|----------|---------|
 |Casio|[PX-S1000](https://www.casiomusicgear.com/products/privia-series/px-s1000)|No|No|**Yes**|No|**Yes**|
 |Casio|[PX-S3000](https://www.casiomusicgear.com/products/privia-series/px-s3000)|**Yes**|**Yes**|**Yes**|No|**Yes**|
@@ -168,14 +168,14 @@ computer or don't want to buy new gear, it's a decent way to proceed.
 instructions in your user manual.
 1. Once you're done recording, remove the flash drive from your piano, insert
    it into your computer, and listen to the file to make sure it's good.
-1. If you've recorded a WAV file, compress it as described in [Types of digital
-   audio files](#types-of-digital-audio-files), above.
+1. If you've recorded a WAV file, compress it as described in [Types of audio
+   files](#types-of-audio-files), above.
 1. Then share it with as big of a world as you'd like.
 
-### Record digital audio via USB
+### Record audio via USB
 
 A select few digital pianos can act as digital audio interfaces, meaning that
-they output digital audio over USB when connected to a computer.  This feature
+they output audio over USB when connected to a computer.  This feature
 is incredibly convenient but unfortunately isn't very common.  In the list
 above, only the Roland RD-2000 and Yamaha CP88 stage pianos, as well as the
 Yamaha P-125 portable piano support it.
@@ -197,7 +197,7 @@ Yamaha P-125 portable piano support it.
 1. Perform!
 1. Export the audio as MP3.
 
-### Record analog audio via line-outs, basic
+### Record audio via line-outs, basic
 
 If your computer has a stereo line input, all you'll need to get started is an
 adapter cable allowing you to connect your piano's line output to your
@@ -236,7 +236,7 @@ is an inexpensive example.
 1. Perform!
 1. Export the audio as MP3.
 
-### Record analog audio via line-outs, better
+### Record audio via line-outs, better
 
 Some computers don't have line inputs.  Even if yours does, it may not provide
 a very high quality signal or you may have to choose between connecting
