@@ -61,11 +61,11 @@ standard video protocol.  However, the [010
 Editor](https://www.sweetscape.com/010editor/)'s JPG template confirms that
 the stream contains a JPEG image prepended with 41 bytes of garbage.
 
-![010 Editor screenshot at start of stream](/images/010 Editor JPG Start.png)
+![010 Editor screenshot at start of stream](/assets/010 Editor JPG Start.png)
 
 The string `BoundaryE` immediately follows the EOI marker, which is immediately
 followed by `BoundaryS` again.
-![010 Editor screenshot at end of first frame](/images/010 Editor JPG End.png)
+![010 Editor screenshot at end of first frame](/assets/010 Editor JPG End.png)
 
 ### Corroboration via executable analysis 
 Previously, I described a [procedure for making two interesting binaries
@@ -246,7 +246,7 @@ $ ffmpeg -loglevel warning -i frame1.log 1.jpg
 [mjpeg @ 0x7f98ba003400] error y=43 x=78
 ```
 
-![Corrupt image](/images/bad ffmpeg frame.jpg)
+![Corrupt image](/assets/bad ffmpeg frame.jpg)
 
 The ffmpeg run's output on stdout says that a bad variable-length code was
 encountered while attempting to decode the direct current (DC) term of a
@@ -329,7 +329,7 @@ output is far more reasonable:
 ```console
 $ <frame1.log jpegtran 1_better.jpg
 ```
-![More reasonable image](/images/good jpegtran frame.jpg)
+![More reasonable image](/assets/good jpegtran frame.jpg)
 
 The `jpegtran` re-encode takes about 15-30 milliseconds seconds per sample
 frame from the camera.  Since the borescope camera runs at about 7 frames per 
@@ -366,7 +366,7 @@ corrupt data.  However, even frames that `jpegtran` does not flag as corrupt
 generally contained a significant banding artifact about halfway down the
 height of the image.
 
-![image with artifact](/images/visual artifact.jpg)
+![image with artifact](/assets/visual artifact.jpg)
 
 Visual artifacts don't show up in the DEPSTECH mobile app.  It's not clear what
 is different about the decoder used in the mobile app or if some form of stream

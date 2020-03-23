@@ -26,19 +26,19 @@ I use a non-retina external display and a non-retina Mac, so I re-enable font sm
 With the default Mojave font smoothing behavior (setting `YES`), both MuseScore 2.3.2 and the `MuseScoreNightly-2018-12-21-1923-master-12d0e18.dmg` build render UI text reasonably.  Screenshots are attached.
 
 #### 2.3.2 Behavior
-![2.3.2 font smoothing Mojave default](/images/MuseScore 2.3.2 font smoothing Mojave default.png) 
+![2.3.2 font smoothing Mojave default](/assets/MuseScore 2.3.2 font smoothing Mojave default.png) 
 
 #### 3.0 Behavior
-![3.0 nightly font smoothing Mojave default](/images/MuseScore 3.0 nightly font smoothing Mojave default.png)
+![3.0 nightly font smoothing Mojave default](/assets/MuseScore 3.0 nightly font smoothing Mojave default.png)
 
 ### Font smoothing not disabled
 With font smoothing not disabled (setting `NO`), MuseScore 2.3.2 renders UI text reasonably but the text looks crunchy and weird on the 3.0 nightly build.  Note the correct text rendering in the 3.0 screenshot's title bar but weird text in the dialog space itself.
 
 #### 2.3.2 behavior
-![2.3.2 font smoothing enabled](/images/MuseScore 2.3.2 font smoothing enabled.png)
+![2.3.2 font smoothing enabled](/assets/MuseScore 2.3.2 font smoothing enabled.png)
 
 #### 3.0 behavior
-![3.0 nightly font smoothing enabled](/images/MuseScore 3.0 nightly font smoothing enabled.png)
+![3.0 nightly font smoothing enabled](/assets/MuseScore 3.0 nightly font smoothing enabled.png)
 
 ## Workaround
 The workaround is to disable font smoothing, which is undesirable as UI text everywhere in the OS looks blurry.
