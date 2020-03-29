@@ -122,7 +122,7 @@ the newer machine's profile is about two-thirds the size of the old one's.
 
 The size difference comes from the `NativeDisplayInfo` and `VideoCardGamma`
 tables.  In Apple's ColorSync utility, these tags are shown as the `ndin` and
-`vgct` tags, respectively.
+`vcgt` tags, respectively.
 
 ```diff
 --- Catalina - MacBook Pro 13-inch Mid 2012 Color LCD.json	2020-03-29 00:10:47.000000000 -0400
@@ -151,7 +151,7 @@ tables.  In Apple's ColorSync utility, these tags are shown as the `ndin` and
 
 However, a color profile resulting from [a calibration in "Expert
 Mode"](https://osxdaily.com/2015/10/14/access-expert-mode-screen-color-calibrator-mac-os-x/)
-also results in large `ndin` and `vgct` tables, but does not result in a
+also results in large `ndin` and `vcgt` tables, but does not result in a
 glowing cursor.
 
 Files from the calibrated profile are as follows:
