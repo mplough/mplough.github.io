@@ -164,5 +164,6 @@ I'm...stumped.
 
 I've submitted [item
 FB7642867](https://feedbackassistant.apple.com/feedback/7642867) to Apple's
-Feedback Assistant and will be reaching out to the f.lux developers to see if
-they know more.
+Feedback Assistant and [posted a topic on the f.lux
+forums](https://forum.justgetflux.com/topic/7429/i-did-a-detailed-investigation-of-the-glowing-blue-mouse-cursor-issue)
+to see if others have better luck tracking this down.
