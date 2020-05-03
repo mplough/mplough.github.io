@@ -138,6 +138,7 @@ FAQ](https://www.reddit.com/r/piano/wiki/faq#wiki_specific_suggestions).
 |Roland|[FP-90](https://www.roland.com/global/products/fp_series/fp-90/)|**Yes**|**Yes**|**Yes**|No|**Yes**|
 |Yamaha|[P-125](https://usa.yamaha.com/products/musical_instruments/pianos/p_series/p-125/index.html)|No|No|**Yes**|**Yes**|**Yes**|
 |Yamaha|[P-255](https://usa.yamaha.com/products/musical_instruments/pianos/p_series/p-255/index.html)|**Yes**|**Yes**|**Yes**|No|**Yes**|
+|Yamaha|[P-515](https://usa.yamaha.com/products/musical_instruments/pianos/p_series/p-515/specs.html#product-tabs)|**Yes**|**Yes**|**Yes**|**Yes**|**Yes**|
 
 #### Stage pianos
 
