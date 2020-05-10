@@ -148,6 +148,7 @@ FAQ](https://www.reddit.com/r/piano/wiki/faq#wiki_specific_suggestions).
 |Casio|[PX-S3000](https://www.casiomusicgear.com/products/privia-series/px-s3000)|**Yes**|**Yes**|**Yes**|No|**Yes**|
 |Korg|[Grandstage](https://www.korg.com/us/products/synthesizers/grandstage/)|**Yes**|No|**Yes**|No|**Yes**|
 |Nord|[Stage 3](https://www.nordkeyboards.com/products/nord-stage-3)|No|No|**Yes**|No|**Yes**|
+|Roland|[RD-88](https://www.roland.com/us/products/rd-88/)|**Yes**|No|**Yes**|**Yes**|**Yes**|
 |Roland|[RD-2000](https://www.roland.com/us/products/rd-2000/)|**Yes**|**Yes**|**Yes**|**Yes**|**Yes**|
 |Yamaha|[CP88](https://usa.yamaha.com/products/music_production/synthesizers/cp88_73/index.html)|**Yes**|No|**Yes**|**Yes**|**Yes**|
 
