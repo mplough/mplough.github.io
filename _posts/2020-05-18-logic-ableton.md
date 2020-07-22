@@ -19,10 +19,11 @@ from Ableton Live, I recorded a set of samples in Ableton Live and then
 imported them into Logic.  I then recorded the same minimal performance
 including one loop transition in each program and exported the files to WAV.
 
-The performances follow.  The loop transition occurs at approximately 12.8
-seconds.
+The performances follow.  The loop transition occurs at 12.8 seconds.
 
 * [Ableton performance (good)](/assets/Let It Be - Ableton Live Lite - good.wav)
 * [Logic performance (bad)](/assets/Let It Be - Logic - bad.wav)
 
 This issue is a show stopper for using Logic with ad hoc samples.
+
+**July 22, 2020 update:** This issue still exists in Logic Pro 10.5.1.
