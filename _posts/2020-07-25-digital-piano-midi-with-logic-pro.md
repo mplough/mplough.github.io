@@ -35,7 +35,7 @@ However, recording, manipulating, and playing back MIDI commands offers massive
 flexibility.  A digital piano used as a MIDI controller offers the ability to
 play with any sound, not just sounds built into the piano itself.  Logic can
 produce music notation directly from a MIDI track, thereby minimizing the
-tedium of transcription the work of transcription and allowing a composer to
+tedium of transcription and allowing a composer to
 write music by simply playing.  Logic can also transform MIDI commands,
 repeating notes, arpeggiating chords, and so on via [MIDI
 FX](https://mixedinkey.com/captain-plugins/wiki/how-to-use-midi-fx-in-logic-pro-x/).
@@ -106,14 +106,12 @@ control off](/assets/midi - local control off.png)
 The first way is to turn off local control.  Turning off local control will
 break the piano's internal connection between the keyboard and the instrument.
 This is useful because it allows us to use the full power of Logic's MIDI
-FX -- arpeggiation, note repeats, and so on.  However, it requires that the
-record enable be selected on the associated MIDI track, or Logic won't listen
-for (and send back) MIDI commands from the keyboard.  As a reminder, record
-is enabled when the little R is illuminated in red:
+FX -- arpeggiation, note repeats, and so on.  However, it requires that "record
+enable" be selected on the associated MIDI track, or Logic won't listen for
+(and send back) MIDI commands from the keyboard.  As a reminder, record is
+enabled when the little R is illuminated in red:
 
 ![Logic Pro MIDI track with record enabled](/assets/Logic Pro MIDI track record enabled.png)
-
-
 Each digital piano has a slightly different procedure for turning off local
 control.  Check your user manual for more information.
 
@@ -123,8 +121,8 @@ control.  Check your user manual for more information.
 control ok because thru is filtered](/assets/midi - local control filtered thru.png)
 
 The need to turn local control off when using Logic and to turn it back on when
-using the digital piano standalone can get annoying.  Logic may also introduce
-a slight delay when processing MIDI messages, which can also get annoying.
+using the digital piano standalone can be tedious.  Logic may also introduce
+a slight delay when processing MIDI messages, which can throw off the performer.
 
 To work around these issues, we can stop Logic from passing MIDI messages
 through.  In this configuration, Logic will listen for MIDI messages when
@@ -135,8 +133,8 @@ but it will never re-send MIDI messages that it receives.
 
 Setting this up is annoyingly involved, and isn't possible when using the
 external instrument plugin.  Allowing transformation of received MIDI data is
-the whole point of the external instrument plugin, so this isn't really a
-limitation.
+the whole point of the external instrument plugin though, so this isn't really
+a limitation.
 
 Steps:
 

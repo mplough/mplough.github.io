@@ -1,6 +1,6 @@
 .phony: serve
 serve:
-	bundle exec jekyll build --drafts --incremental --strict_front_matter
+	bundle exec jekyll build --drafts --strict_front_matter
 	bundle exec jekyll serve --watch --drafts --incremental
 
 .phony: setup
