@@ -1,5 +1,6 @@
 .phony: serve
 serve:
+	bundle exec jekyll build --drafts --incremental --strict_front_matter
 	bundle exec jekyll serve --watch --drafts --incremental
 
 .phony: setup
@@ -8,4 +9,4 @@ setup:
 
 .phony: clean
 clean:
-	git clean -dfx
+	bundle exec jekyll clean
