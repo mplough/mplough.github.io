@@ -44,7 +44,7 @@ FX](https://mixedinkey.com/captain-plugins/wiki/how-to-use-midi-fx-in-logic-pro-
 ## How MIDI commands get routed
 
 A basic understanding of MIDI command routing will save you hours of
-frustration.  For example, when commands get doubled, you be able to diagnose
+frustration.  For example, when commands get doubled, you will be able to diagnose
 the problem and solve it easily.
 
 
