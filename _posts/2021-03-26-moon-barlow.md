@@ -61,7 +61,8 @@ compared to 2x:
 Results are not good.  Judicious cropping and composition could easily take
 care of the vignetting issue, but there is a bizarre colorful ghost / flare at
 the center of the image.  The Barlow cannot be used for imaging in this 3x
-mode:
+mode.  This is the full frame resampled to DX resolution with an exposure
+adjustment applied and the orientation corrected:
 
 ![moon 3x](/assets/2021-03-26 - moon 3x.jpg)
 
