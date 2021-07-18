@@ -3,6 +3,10 @@ layout: post
 title:  "Rewriting the video stream from a wi-fi borescope camera"
 ---
 
+**Updated July 18, 2021** - Thanks to [Michael
+Karr](https://mkarr.github.io/20200616_boroscope) the video corruption can now
+be completely removed.
+
 ## Introduction
 
 I purchased a cheap wi-fi borescope camera (the [Depstech WF028
@@ -358,6 +362,10 @@ It uses about 50% CPU on a mid-2012 i7 MacBook Pro.
 Source code for the `borescope_stream` program is [available on
 GitHub](https://github.com/mplough/borescope_stream).
 
+**Update - July 18, 2021** Source code from the original time of writing is
+available at commit
+[2f7626e0e4240c9456dcadf2d94c490894d19442](https://github.com/mplough/borescope_stream/commit/2f7626e0e4240c9456dcadf2d94c490894d19442).
+
 ## Results
 Output latency is low and consistent.
 
@@ -383,3 +391,17 @@ to read data from these wi-fi borescope cameras.  For example:
 The DEPSTECH-Wifi app appears to be packed/encrypted using Jiagu and Qihoo.
 Analysis won't be straightforward but it may yield information about
 differences in JPEG decoding.
+
+## Update - July 18, 2021
+
+In June 2020, Michael Karr [figured out the corruption in the video
+stream](https://mkarr.github.io/20200616_boroscope) and wrote a [tool to remove
+the corruption from the video
+stream](https://github.com/mkarr/boroscope_stream_fixer).  It was amazing to be
+able to build on Nathan Henrie's work and then to see Michael Karr build upon
+my own.  Michael did what I couldn't do; he finally solved this puzzle.
+
+I have updated the `borescope_stream` application to remove the corruption
+as described in Michael Karr's writeup.  There is no longer a need to involve
+the jpegtran application.  Updated source code is [available on
+GitHub](https://github.com/mplough/borescope_stream).
