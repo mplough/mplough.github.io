@@ -15,7 +15,7 @@ Viewing PDFs with a dark background is a little more difficult.
   catalog PDFs, but opens PDFs in Preview.
 * The developers of [Skim](https://skim-app.sourceforge.io/) sanctimoniously
   rejected a [feature request for a dark background
-  mode](https://skim-app.sourceforge.io/) back in 2018.
+  mode](https://sourceforge.net/p/skim-app/feature-requests/1509/) back in 2018.
 * Inverting colors in the macOS accessibility settings results in a mouse
   cursor with garish glowing blue edges.
 * [PDF Expert](https://pdfexpert.com/) supposedly has a dedicated night mode,
