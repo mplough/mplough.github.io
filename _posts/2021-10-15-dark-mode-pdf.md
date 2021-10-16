@@ -38,6 +38,28 @@ behavior in one line of JavaScript.
 I made the code into a bookmarklet.  Drag the link to your bookmarks bar, open
 a PDF, and click your new bookmark to turn out the lights:
 
+<!--
+Bookmarklet style cribbed from Alisdair McDiarmid's article:
+Kill sticky headers
+https://alisdair.mcdiarmid.org/kill-sticky-headers/
+
+I would put this in assets/main.scss or assets/css/style.scss
+but the minima theme is a mess.  The documentation on how to customize the
+minima theme doesn't match how the theme actually works.
+-->
+<style>
+.bookmarklet a {
+    background: #16e;
+    border-radius: 3px;
+    border-bottom: 1px solid #139;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition-property: background;
+    transition-duration: 150ms;
+}
+</style>
+
 <p class=bookmarklet style="text-align: center;">
 <a href="javascript:(function(){viewer.style = 'filter: grayscale(1) invert(1) sepia(1) contrast(75%)';})()">Dark Mode PDF</a>
 </p>
