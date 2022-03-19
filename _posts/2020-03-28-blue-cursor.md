@@ -46,20 +46,25 @@ normal viewing distance.
 
 ![Display Calibrator Assistant](/assets/Display Calibrator Assistant.png)
 
-Mouse over to try for yourself:
+Tap or click to try for yourself:
 
 <script type="text/javascript">
-    function mouseover(image) {
-        image.src = "/assets/MacBook Pro Viewing Angle 2.jpg";
-    }
-    function mouseout(image) {
-        image.src = "/assets/MacBook Pro Viewing Angle 1.jpg";
+    var toggle = false;
+    function toggle_image(image) {
+        let image_1 = "/assets/MacBook Pro Viewing Angle 1.jpg";
+        let image_2 = "/assets/MacBook Pro Viewing Angle 2.jpg";
+        if (toggle) {
+            image.src = image_1;
+        }
+        else {
+            image.src = image_2;
+        }
+        toggle = !toggle;
     }
 </script>
 <img alt="Display Calibrator Assistant screen comparison"
      src="/assets/MacBook Pro Viewing Angle 1.jpg"
-     onmouseover="mouseover(this)" 
-     onmouseout="mouseout(this)"
+     onclick="toggle_image(this)" 
 />
 
 Color calibration without specialized tools (a [Datacolor

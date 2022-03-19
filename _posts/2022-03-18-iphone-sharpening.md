@@ -41,22 +41,25 @@ links show up in a nice blue:
 
 ![decent ProRAW](/assets/2022-03-18 - apple.com decent proraw.jpeg)
 
-Mouse over or touch to compare the oversharpened and decent ProRAW images:
+Tap or click to compare the oversharpened and decent ProRAW images:
 
 <script type="text/javascript">
-    function mouseover(image) {
-        image.src = "/assets/2022-03-18 - apple.com decent proraw.jpeg";
-    }
-    function mouseout(image) {
-        image.src = "/assets/2022-03-18 - apple.com oversharpened proraw.jpeg";
+    var toggle = false;
+    function toggle_image(image) {
+        let image_1 = "/assets/2022-03-18 - apple.com oversharpened proraw.jpeg";
+        let image_2 = "/assets/2022-03-18 - apple.com decent proraw.jpeg";
+        if (toggle) {
+            image.src = image_1;
+        }
+        else {
+            image.src = image_2;
+        }
+        toggle = !toggle;
     }
 </script>
 <img alt="Oversharpened vs. decent ProRAW"
      src="/assets/2022-03-18 - apple.com oversharpened proraw.jpeg"
-     onmouseover="mouseover(this)" 
-     onmouseout="mouseout(this)"
-     ontouchstart="mouseover(this)" 
-     ontouchend="mouseout(this)"
+     onclick="toggle_image(this)" 
 />
 
 In order to defeat the over-sharpening, I performed a null edit as follows:
