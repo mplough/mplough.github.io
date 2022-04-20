@@ -3,13 +3,11 @@ layout: post
 title:  "iPhone 13 Pro over-sharpening"
 ---
 
-The iPhone 13 Pro's camera application over-sharpens photos during
-post-processing.  As a result, photos taken with the best smartphone camera
-hardware available end up looking like they belong next to a RealPlayer embed
-on some Tripod site from 1999.  The over-sharpening occurs whether shooting
-HEIF or ProRAW.  With HEIF the over-sharpening is unrecoverable.  With ProRAW,
-however, it is possible to defeat the over-sharpening by performing a null edit
-on the image in the Photos app on the phone.
+The iPhone 13 Pro's camera application drastically over-sharpens photos during
+post-processing.  The over-sharpening occurs whether shooting HEIF or ProRAW.
+With HEIF the over-sharpening is unrecoverable.  With ProRAW, however, it is
+possible to defeat the over-sharpening by performing a null edit on the image
+in the Photos app on the phone.
 
 To illustrate the severity of the issue and the possibility of defeating it, I
 took three pictures of my 2020 13-inch MacBook Pro screen displaying
@@ -75,8 +73,5 @@ It's also possible to defeat the over-sharpening by allowing the photo to sync
 from the phone to a computer via iCloud Photos, and then perform a similar null
 edit in Photos on the computer.
 
-This deficiency is exasperating.  I bought an iPhone 13 Pro so that I'd have an
-excellent camera on me at all times, but instead I'm writing detailed bug
-reports in the futile hope that some Apple engineer cares enough to make their
-computational photography look better than a Kodak Instamatic shooting [110
-film](https://en.wikipedia.org/wiki/110_film).
+This deficiency is exasperating; a software bug compromises the otherwise
+sensible defaults offered by the iPhone 13 Pro imaging pipeline.
