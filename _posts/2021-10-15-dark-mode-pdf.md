@@ -65,3 +65,5 @@ minima theme doesn't match how the theme actually works.
 </p>
 
 The irony is not lost on me that this site doesn't support dark mode.  Someday!
+
+**May 29, 2023** - This site now supports dark mode.
