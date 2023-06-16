@@ -35,7 +35,7 @@ A [Hacker News comment](https://news.ycombinator.com/item?id=25180600) contains
 the best solution I've seen, and it modifies the Firefox's PDF viewer's
 behavior in one line of JavaScript.
 
-I made the code into a bookmarklet.  Drag the link to your bookmarks bar, open
+I made the code into bookmarklets to toggle dark mode.  Drag the links to your bookmarks bar, open
 a PDF, and click your new bookmark to turn out the lights:
 
 <!--
@@ -60,10 +60,14 @@ minima theme doesn't match how the theme actually works.
 }
 </style>
 
-<p class=bookmarklet style="text-align: center;">
-<a href="javascript:(function(){viewer.style = 'filter: grayscale(1) invert(1) sepia(1) contrast(75%)';})()">Dark Mode PDF</a>
-</p>
+<span style="display:table; margin: auto;">
+<span class=bookmarklet>
+<a href="javascript:(function(){viewer.style.setProperty('filter', 'grayscale(1) invert(1) sepia(1) contrast(75%)');})()">Dark Mode PDF</a>
+</span>
+<span class=bookmarklet>
+<a href="javascript:(function(){viewer.style.setProperty('filter', '');})()">Light Mode PDF</a>
+</span>
+</span>
 
-The irony is not lost on me that this site doesn't support dark mode.  Someday!
-
-**May 29, 2023** - This site now supports dark mode.
+- **May 29, 2023** - This site now supports dark mode.
+- **June 16, 2023** - Updated bookmarklet to handle [pdf.js PR #15930](https://github.com/mozilla/pdf.js/pull/15930).  Added light mode bookmarklet to switch back.
