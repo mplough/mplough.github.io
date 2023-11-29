@@ -142,7 +142,10 @@ Steps:
 1. Start Logic.
 1. Create a new empty project, starting with an External MIDI instrument with
    your piano as the MIDI Destination.
-1. Open the MIDI environment with Window > Open MIDI Environment.
+1. Open the MIDI environment with Window > Open MIDI Environment.  Note: In
+   Logic Pro 10.7.3 or greater, you must hold down the Option key prior to
+   clicking on the Window menu for this item to show.  Or press `Cmd + 0`.  See
+   [discussion](https://www.logicprohelp.com/forums/topic/141444-solved-open-environment-menu-option-missing-everything-works/).
 1. In the MIDI environment, go to the "Midi Instr." layer.
 1. Select the multi-instrument that's already present, and set its Port to
    "Off" and its MIDI Channel to "All".  Rename the multi-instrument to "All"
