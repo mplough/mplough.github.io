@@ -11,6 +11,8 @@ phone-serve:
 
 .phony: setup
 setup:
+	rbenv install -s 3.3.6
+	rbenv local 3.3.6
 	bundle install
 
 .phony: clean
