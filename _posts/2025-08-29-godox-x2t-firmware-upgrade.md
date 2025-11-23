@@ -35,3 +35,7 @@ The firmware can be upgraded with the X2T-N off and the batteries removed.
 
 Godox G3 can download and install firmware with no need to download firmware
 binaries separately.
+
+## Update - November 22, 2025
+
+This technique also works with the XProII-N flash controller.
