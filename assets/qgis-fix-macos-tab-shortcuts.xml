@@ -1,0 +1,5 @@
+<!DOCTYPE shortcuts>
+<qgsshortcuts locale="en_US" version="1.1">
+    <action name="Toggle Map Only" setting="/shortcuts/mActionToggleMapOnly" shortcut="⌃⇧⇥"/>
+    <action name="Toggle Panel Visibility" setting="/shortcuts/mActionTogglePanelsVisibility" shortcut="⌃⇥"/>
+</qgsshortcuts>
